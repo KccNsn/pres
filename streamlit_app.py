@@ -1,5 +1,5 @@
 import streamlit as st
-from standalone import parse_markdown_slides, render_slide_html, TEMPLATE_HEAD, TEMPLATE_FOOT, TEMPLATE_SCRIPT
+from standalone_upgraded import parse_markdown_slides, render_slide_html, TEMPLATE_HEAD, TEMPLATE_FOOT, TEMPLATE_SCRIPT
 import markdown
 
 st.title("Markdown to Presentation Converter")
