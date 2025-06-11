@@ -131,18 +131,18 @@ TEMPLATE_SCRIPT = """
 
     $('#prev-slide').click(() => {
       showSlide(currentSlide - 1);
-      resetAutoplay();
+      //resetAutoplay();
     });
 
     $('#next-slide').click(() => {
       showSlide(currentSlide + 1);
-      resetAutoplay();
+      //resetAutoplay();
     });
 
     $('.pagination-btn').click(function () {
       const index = parseInt($(this).attr('data-index'));
       showSlide(index);
-      resetAutoplay();
+      //resetAutoplay();
     });
 
     // Theme toggle
@@ -165,7 +165,7 @@ TEMPLATE_SCRIPT = """
         clearInterval(autoplayTimer);
         autoplayTimer = null;
       }
-      startAutoplay();
+      //startAutoplay();
     }
 
     // Export PDF
